@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+body{
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+}
+
+.site-name {
+    font-size:2.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
