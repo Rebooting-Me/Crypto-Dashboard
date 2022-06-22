@@ -13,11 +13,18 @@ body{
 }
 
 .site-name {
+    display: flex;
     font-size:3rem;
     font-weight: bolder;
     text-align: center;
+    align-items: center;
+    gap: 0.8rem;
 }
 
+.site-name img {
+    width: 3.5rem;
+    
+}
 .nav a{
     color: white;
     text-decoration: none;

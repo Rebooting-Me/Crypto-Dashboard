@@ -1,7 +1,9 @@
+import logo from './logo.gif';
+
 export default function Navbar() {
     return (
         <nav className="nav">
-            <a href="/" className="site-name">Crypto</a>
+            <a href="/" className="site-name">Crypto<img src={logo} alt="Logo" /> </a>
             <ul className="middle">
                 <a href="/news"><li>News</li></a>
                 <a href="/price"><li>Price</li></a>
