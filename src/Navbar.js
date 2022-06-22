@@ -8,7 +8,7 @@ export default function Navbar() {
             </ul>
             <ul className="end">
                 <a href="/login"><li>Login</li></a>
-                <a href="/sign-up" className="sign-up"><li>Sign up</li></a>
+                <a href="/sign-up" className="sign-up"><div><li>Sign up</li></div></a>
             </ul>
         </nav>
     )
