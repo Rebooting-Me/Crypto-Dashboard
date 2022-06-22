@@ -23,6 +23,7 @@ body{
 
 .site-name img {
     width: 3.5rem;
+    border-radius: 50%;
     
 }
 .nav a{
@@ -48,6 +49,16 @@ body{
 .nav div {
     text-align: center;
     color: black;
+}
+
+.middle li:hover {
+    color:dimgray;
+    transform: scale(1.1);
+}
+
+.login:hover {
+    color:dimgray;
+    transform: scale(1.1);
 }
 
 .sign-up:hover {
