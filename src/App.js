@@ -1,7 +1,8 @@
 import Navbar from './Navbar';
+import Body from './Body';
 
 function App() {
-  return <Navbar />;
+  return [<Navbar /> , <Body />];
 }
 
 export default App;
