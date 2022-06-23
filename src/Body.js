@@ -1,7 +1,16 @@
 import bg from './bg.png';
 
 export default function Body() {
+
     return(
-        <img className="background" src={bg} alt="Background" />
+        <div className="main">
+            <img className="background" src={bg} alt="Background" />
+            <p>Journey Safe into the most trusted Blockchain Service on the Web!</p>
+            <form>
+                <input type="text" id="email" name="email" placeholder="Enter your email here"></input>
+                <button type="submit">Sign up</button>
+            </form>
+        </div>
+        
     )
 }
