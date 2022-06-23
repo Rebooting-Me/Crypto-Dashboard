@@ -1,4 +1,6 @@
 import React from "react";
+/*import github from "./github.png";
+import linkedin from "./linkedin.png";*/
 
 
 export default function Footer () {
@@ -9,3 +11,5 @@ export default function Footer () {
   </footer>
   )
 }
+
+// <pre><img className="github" src={github} alt="github" />  <img className="linkedin" src={linkedin} alt="Linkedin" /></pre>
