@@ -6,7 +6,7 @@ export default function Body() {
         <div className="main">
             <img className="background" src={bg} alt="Background" />
             <p>Journey Safe into the most trusted Blockchain Service on the Web!</p>
-            <form>
+            <form action="/login">
                 <input type="text" id="email" name="email" placeholder="Enter your email here"></input>
                 <button type="submit">Sign up</button>
             </form>
