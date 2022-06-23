@@ -117,21 +117,25 @@ form{
 
 button{
     position: absolute;
-    left: 72.5%;
+    left: 72.3%;
+    top: 0.08rem;
     width: 10rem;
-    height: 5rem;
+    height: 5.3rem;
     border-radius: 2rem;
-    background-color: black;
-    border-color: #6666fb;
-    color: white;
+    background-color: #D9D9D9;
+    color: black;
     font-size: 2rem;
     font-family: 'Inter';
-    font-weight: bold;
+    font-weight: bolder;
+    text-shadow: 0rem 0.3rem 0.3rem rgba(0, 0, 0, 0.25);
+    border: 0;
+    outline: none;
 }
 
 button:hover {
     transform: scale(1.03);
 }
+
 
 #email {
     width: 32rem;
@@ -140,14 +144,18 @@ button:hover {
     border-radius: 2rem;
     font-size: 1.3rem;
     font-weight: bold;
-    color: rgb(64, 64, 64);
-    border: 0;
-    outline: none;
+    background: black;
+    color: rgb(255, 255, 255); 
+    border-color: white;
+    border-width: 0.25rem;
+    border-style: solid;
 }
+
 ::placeholder {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
-    font-weight: normal;
+    font-family: 'Inter';
+    font-weight: lighter;
     opacity: 0.5;
   }
   
