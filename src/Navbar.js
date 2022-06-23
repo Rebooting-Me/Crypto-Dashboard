@@ -9,7 +9,7 @@ export default function Navbar() {
                 <a href="/price"><li>Price</li></a>
             </ul>
             <ul className="end">
-                <a href="/login"><li>Login</li></a>
+                <a href="/login" className="login"><li>Login</li></a>
                 <a href="/sign-up" className="sign-up"><div><li>Sign up</li></div></a>
             </ul>
         </nav>

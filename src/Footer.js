@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => (
   <div className="footer">
-    <p>Created By</p>
+    <p className="creators">Created By</p>
   </div>
 );
 
