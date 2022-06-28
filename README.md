@@ -11,5 +11,7 @@ Made with:<br />
 - ![Express](http://expressjs.com/)
 - ![Axios](https://axios-http.com/)
 - ![Cors](https://github.com/expressjs/cors#readme)<br />
+- ![Mongoose](https://mongoosejs.com/)
+- ![MongoDB](https://www.mongodb.com/)
 
 Stay tuned for a scratch implementation of backend for the **Sign-up/Login** form by extracting the powerful functionalities of `Axios` and `Express` soon!<br /><br />
