@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
+$tablet: 768 px;
+$mobile: 480 px;
+
 
 body{
     margin: 0;
@@ -13,7 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     font-family: 'Inter';
-    box-shadow: 0rem 0.1rem 2rem rgba(7, 143, 163, 0.25);
+    box-shadow: 0rem 0.1rem 2rem rgba(7, 143, 163, 0.25)
 }
 
 .site-name {
@@ -159,3 +162,13 @@ button:hover {
     opacity: 0.5;
   }
   
+@media only screen and (max-width: 768px){
+    .site-name{
+        display: none;
+    }
+    .site-name img{
+        width: 1rem !important;
+    }
+    
+    
+}
