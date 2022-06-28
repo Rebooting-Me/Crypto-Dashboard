@@ -93,6 +93,9 @@ body{
 /*.footer img {
     align-items:center;
 }*/
+.background1{
+    display: none;
+}
 
 .background {
     width: 100%;
@@ -163,12 +166,13 @@ button:hover {
   }
   
 @media only screen and (max-width: 768px){
-    .site-name{
-        display: none;
+    .main p{
+        font-size: 3rem;
     }
-    .site-name img{
-        width: 1rem !important;
+    .background{
+      display: none;
     }
-    
-    
+    .background1{
+        display: block;
+    }
 }
